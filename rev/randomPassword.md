@@ -77,10 +77,11 @@ int main(int argc,char **argv)
 }
 ```
 
-On voit que on construit le flag une string et on la compare a ce que l'on a écrit sur l'entrée standard et si ils sont égaux on affiche le flag sinon on afficher Incorrect password.
+On voit que l'on construit le flag et on le compare a ce que l'on a écrit sur l'entrée standard et si ils sont égaux on affiche le flag sinon on affiche Incorrect password.
 
 ## Exploitation
-On va donc changer la comparaison pour que se soit si le flag et différent du password entrée, on affiche le flag.
+
+On va donc changer la comparaison pour que se soit si le flag est différent du password entrée, alors on affiche le flag.
 
 Pour cela on se mets à l'adresse où à lieu la comparaison(on mets notre curseur de souris sur *le if (iVar1 == 0) {*)
 

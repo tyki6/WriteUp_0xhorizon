@@ -10,9 +10,11 @@ Grâce à https://ezgif.com/split on peut découper un gif en image.
 Une fois que l'on a tous nos qr code dans un dossier il nous faut tous les analyser.
 
 ## Decoder un qr Code
-Pour analysé un qrcode j'ai choisit d'utiliser zbar (lib open source pour la lecture de qrcode) et PIL(lib python de traitement d'image)
+
+Pour analyser un qrcode j'ai choisi d'utiliser zbar (lib open source pour la lecture de qrcode) et PIL(lib python de traitement d'image)
 
 Installation:
+
 ```bash
 pip install PIL
 sudo apt-get install libzbar0

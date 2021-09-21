@@ -1,8 +1,15 @@
 # CTF 0xhorizon
-Write up du ctf de ruulian
+
+Write up du ctf de ruulian.
+Merci à lui
+
 ## Link
+
 ctf: https://ctf.0xhorizon.eu/challenges
+discord: https://discord.gg/mFscSybQhP
+
 ## Table des matière
+
 - [prog/math](./prog/math.md)
 - [crypto/antiquity](./crypto/antiquity.md)
 - [web/coffee](./web/coffe.md)

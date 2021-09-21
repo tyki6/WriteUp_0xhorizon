@@ -39,7 +39,7 @@ testons encore plus simple:
 
 Message:
 
-```
+```bash
 Hello admin
 Your message: Coffee code: horiz0nx{FLAG}
 ```
